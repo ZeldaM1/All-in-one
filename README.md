@@ -23,7 +23,7 @@ Visual images corrupted by various types and levels of degradations are commonly
 ## Overview
  The key challenges involve distinguishing authentic image content from degradations, and flexibly eliminating various degradations without prior knowledge. Specifically, the proposed framework approaches these challenges from two perspectives: *i.e.*, content information aggregation, and degradation representation aggregation. 
 <img width="1000" alt="image" src='assets/archi.png'>
-<img width="420" alt="image" src='assets/CGA.png'> <img width="560" alt="image" src='assets/SDA.png'>
+<img width="400" alt="image" src='assets/CGA.png'> <img width="500" alt="image" src='assets/SDA.png'>
 
 ## Dataset
 | Setting        | Degradation   | Train           | Test            |
