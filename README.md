@@ -13,7 +13,7 @@
 
 ## 🔥 Update
 
-🔥 2025/2/28: We provided docker environment for this project.
+🔥 2025/3/9: We release code and [checkpoint](https://drive.google.com/drive/folders/1uQNUGUWtibMX1EB9Y33Zh-Ss6fK7tC9C?usp=sharing) for this project.
 
 2025/1/20: Our All-in-One was selected as **Oral** presentation.
 
@@ -38,25 +38,50 @@ Visual images corrupted by various types and levels of degradations are commonly
 | Gaussian Noise | σ = 15        | [Open Images](https://storage.googleapis.com/openimages/web/index.html)| [Kodak](https://r0k.us/graphics/kodak/)     |
 | Gaussian Noise | σ = 25        | [Open Images](https://storage.googleapis.com/openimages/web/index.html)|[Kodak](https://r0k.us/graphics/kodak/)    |
 | Gaussian Noise | σ = 50        | [Open Images](https://storage.googleapis.com/openimages/web/index.html)| [Kodak](https://r0k.us/graphics/kodak/)     |
+* The adopted datasets can be found above.
+* Download all the datasets and structure the data as follows:
+```
+data
+|-- all-in-one-test
+|   |-- CSD_test
+|   |-- SOTS_outdoor
+|   |-- rain1400_test
+|   |-- Kodak_24
+|   `-- all_in_one.json
+`-- all-in-one-train
+    |-- CSD_train
+    |-- OTS_outdoor
+    |-- rain1400_train
+    |-- open_images
+    |-- all_in_one.json
+    `--  description_v2.json
+```
+
 
 ## Environment 
-We provide both dockerfile and docker image to prepare the running enviroment. The docker image can be obtained using the following command: 
+We provide  docker image to prepare the running enviroment. The docker image can be obtained using the following command: 
 ```
 docker pull registry.cn-hangzhou.aliyuncs.com/zenghuimin/zhm_docker:py37-torch18
+pip install pytorch_msssim scipy mmengine timm==0.6.7
 ```
 
-## Training
-```
-sh scripts/train_weather.sh  # The Weather Setting
-sh scripts/train_denoise.sh  # The Gaussian Noise Setting
-```
- 
 ## Test
+* Clean images
 ```
-sh scripts/test_script.sh
+bash scripts/test_script_clean.sh 
 ```
+* The Weather Setting
+```
+bash scripts/test_script_weather.sh 
+```
+* The Gaussian Noise Setting
+```
+bash scripts/test_script_noise.sh 
+```
+We provide pre-trained checkpoint on [GoogleDrive](https://drive.google.com/drive/folders/1uQNUGUWtibMX1EB9Y33Zh-Ss6fK7tC9C?usp=sharing). Please download and put it at `./ckpt`.
+
 ## Acknowledgement
-This repository is partly built on [DCVC-FM](https://github.com/microsoft/DCVC/tree/main/DCVC-FM) and [MMagic](https://github.com/open-mmlab/mmagic). We appreciate their authors creating these brilliant works and sharing the codes for this community.
+This repository is partly built on [DCVC-FM](https://github.com/microsoft/DCVC/tree/main/DCVC-FM) and [MMagic](https://github.com/open-mmlab/mmagic). We appreciate their authors for creating these brilliant works and sharing codes with the community.
 
 ## Citation
 If you find our All-in-One useful, please star ⭐ this repository and consider citing:

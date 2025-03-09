@@ -1,0 +1,17 @@
+
+*.pyc
+*.pyd
+.vscode/
+*.bin
+*.png
+*.so
+*.csv
+*.onnx
+*.npz
+*.yuv
+__pycache__
+pretrain_model
+workdirs/
+*.pth
+*.zip
+*.json
