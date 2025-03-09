@@ -3,10 +3,6 @@
 <a href="https://openaccess.thecvf.com/content/WACV2025/supplemental/Zeng_All-in-One_Image_Compression_WACV_2025_supplemental.pdf"><img src="https://img.shields.io/badge/Supp-blue"></a> <a href="https://arxiv.org/pdf/2502.03649"><img src="https://img.shields.io/badge/arXiv-yellow"></a>  <a href="https://video.computer.org/WACV-Posters25/5AaMB5jWKpzI96r1JNNwsl-wacv25-425.mp4"><img src="https://img.shields.io/badge/Video-orange"></a>
 
 
-
-
-
-
 [Huimin Zeng](https://zeldam1.github.io/), [Jiacheng Li](http://home.ustc.edu.cn/~jclee/),
 [Ziqiang Zheng](https://zhengziqiang.github.io/), [Zhiwei Xiong](http://staff.ustc.edu.cn/~zwxiong/)
 
@@ -21,13 +17,13 @@
 
 
 ## Introduction
-<img src='assets/teaser.png' width="400"  alt="image" style="float: left; margin: 0 15px 2px 0;">  
-
 Visual images corrupted by various types and levels of degradations are commonly encountered in practical image compression. However, **most existing image compression methods are tailored for clean images**, therefore struggling to achieve satisfying results on these images. **Joint compression and restoration methods typically focus on a single type of degradation** and fail to address a variety of degradations in practice. To this end, we propose a unified framework for all-in-one image compression and restoration, which incorporates the image restoration capability against various degradations into the process of image compression. Extensive experiments demonstrate the following merits of our model: 1) superior rate-distortion (RD) performance on various degraded inputs while preserving the performance on clean data; 2) strong generalization ability to real-world and unseen scenarios; 3) higher computing efficiency over compared methods.  
 
-## Method Overview
+  
+## Overview
  The key challenges involve distinguishing authentic image content from degradations, and flexibly eliminating various degradations without prior knowledge. Specifically, the proposed framework approaches these challenges from two perspectives: *i.e.*, content information aggregation, and degradation representation aggregation. 
-<img width="1000" alt="image" src='assets/archi.png'>v<img width="290" alt="image" src='assets/CGA.png'> <img width="380" alt="image" src='assets/SDA.png'>
+<img width="1000" alt="image" src='assets/archi.png'>
+<img width="350" alt="image" src='assets/CGA.png'> <img width="450" alt="image" src='assets/SDA.png'>
 
 ## Dataset
 | Setting        | Degradation   | Train           | Test            |
@@ -85,7 +81,7 @@ This repository is partly built on [DCVC-FM](https://github.com/microsoft/DCVC/t
 
 ## Citation
 If you find our All-in-One useful, please star ⭐ this repository and consider citing:
-```
+```bibtex
 @InProceedings{Zeng_2025_WACV,
     author    = {Zeng, Huimin and Li, Jiacheng and Zheng, Ziqiang and Xiong, Zhiwei},
     title     = {All-in-One Image Compression and Restoration},
