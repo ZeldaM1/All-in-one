@@ -14,4 +14,4 @@ pretrain_model
 workdirs/
 *.pth
 *.zip
-*.json
+ 
