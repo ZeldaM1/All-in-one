@@ -8,8 +8,9 @@
 
 
 ## 🔥 Update
+🔥 2025/3/9: We provide [benchmark](benchmark/README.md) for all-in-one image restoration.
 
-🔥 2025/3/9: We release code and [checkpoint](https://drive.google.com/drive/folders/1uQNUGUWtibMX1EB9Y33Zh-Ss6fK7tC9C?usp=sharing) for this project.
+2025/3/8: We release code and [checkpoint](https://drive.google.com/drive/folders/1uQNUGUWtibMX1EB9Y33Zh-Ss6fK7tC9C?usp=sharing) for this project.
 
 2025/1/20: Our All-in-One was selected as **Oral** presentation.
 
@@ -28,12 +29,8 @@ Visual images corrupted by various types and levels of degradations are commonly
 ## Dataset
 | Setting        | Degradation   | Train           | Test            |
 |----------------|---------------|-----------------|-----------------|
-| Weather        | Haze          | [RESIDE](https://sites.google.com/site/boyilics/website-builder/reside)     | [RESIDE](https://sites.google.com/site/boyilics/website-builder/reside)     |
-| Weather        | Snow          | [CSD](https://github.com/weitingchen83/ICCV2021-Single-Image-Desnowing-HDCWNet?tab=readme-ov-file)       | [CSD](https://github.com/weitingchen83/ICCV2021-Single-Image-Desnowing-HDCWNet?tab=readme-ov-file)      |
-| Weather        | Rain          | [Rain1400](https://xueyangfu.github.io/projects/cvpr2017.html)   | [Rain1400](https://xueyangfu.github.io/projects/cvpr2017.html)    |
-| Gaussian Noise | σ = 15        | [Open Images](https://storage.googleapis.com/openimages/web/index.html)| [Kodak](https://r0k.us/graphics/kodak/)     |
-| Gaussian Noise | σ = 25        | [Open Images](https://storage.googleapis.com/openimages/web/index.html)|[Kodak](https://r0k.us/graphics/kodak/)    |
-| Gaussian Noise | σ = 50        | [Open Images](https://storage.googleapis.com/openimages/web/index.html)| [Kodak](https://r0k.us/graphics/kodak/)     |
+| Weather        | Haze-Snow-Rain         | [RESIDE](https://sites.google.com/site/boyilics/website-builder/reside)-[CSD](https://github.com/weitingchen83/ICCV2021-Single-Image-Desnowing-HDCWNet?tab=readme-ov-file)-[Rain1400](https://xueyangfu.github.io/projects/cvpr2017.html)      | [RESIDE](https://sites.google.com/site/boyilics/website-builder/reside)-[CSD](https://github.com/weitingchen83/ICCV2021-Single-Image-Desnowing-HDCWNet?tab=readme-ov-file)-[Rain1400](https://xueyangfu.github.io/projects/cvpr2017.html)       |
+| Gaussian Noise | σ = 15-25-50        | [Open Images](https://storage.googleapis.com/openimages/web/index.html)| [Kodak](https://r0k.us/graphics/kodak/)     |
 * The adopted datasets can be found above.
 * Download all the datasets and structure the data as follows:
 ```
