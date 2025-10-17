@@ -79,12 +79,12 @@ This repository is partly built on [DCVC-FM](https://github.com/microsoft/DCVC/t
 ## Citation
 If you find our All-in-One useful, please star ⭐ this repository and consider citing:
 ```bibtex
-@InProceedings{Zeng_2025_WACV,
-    author    = {Zeng, Huimin and Li, Jiacheng and Zheng, Ziqiang and Xiong, Zhiwei},
-    title     = {All-in-One Image Compression and Restoration},
-    booktitle = {Proceedings of the Winter Conference on Applications of Computer Vision (WACV)},
-    month     = {February},
-    year      = {2025},
-    pages     = {609-619}
+@inproceedings{zeng2025all,
+  title={All-in-One Image Compression and Restoration},
+  author={Zeng, Huimin and Li, Jiacheng and Zheng, Ziqiang and Xiong, Zhiwei},
+  booktitle={2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  pages={609--619},
+  year={2025},
+  organization={IEEE}
 }
 ```
