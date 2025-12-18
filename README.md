@@ -74,7 +74,8 @@ bash scripts/test_script_noise.sh
 We provide pre-trained checkpoint on [GoogleDrive](https://drive.google.com/drive/folders/1uQNUGUWtibMX1EB9Y33Zh-Ss6fK7tC9C?usp=sharing). Please download and put it at `./ckpt`.
 
 ## Acknowledgement
-This repository is partly built on [DCVC-FM](https://github.com/microsoft/DCVC/tree/main/DCVC-FM) and [MMagic](https://github.com/open-mmlab/mmagic). We appreciate their authors for creating these brilliant works and sharing codes with the community.
+This repository is partly built on [DCVC-FM](https://github.com/microsoft/DCVC/tree/main/DCVC-FM) and [MMagic](https://github.com/open-mmlab/mmagic). We appreciate their authors for creating these brilliant works and sharing codes with the community. We also thank **[Ziyu Zhao](https://ziyuz-vision.github.io/)** for his support of this project and valuable contributions to this repository.
+
 
 ## Citation
 If you find our All-in-One useful, please star ⭐ this repository and consider citing:
