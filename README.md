@@ -3,7 +3,7 @@
 <a href="https://openaccess.thecvf.com/content/WACV2025/supplemental/Zeng_All-in-One_Image_Compression_WACV_2025_supplemental.pdf"><img src="https://img.shields.io/badge/Supp-blue"></a> <a href="https://arxiv.org/pdf/2502.03649"><img src="https://img.shields.io/badge/arXiv-yellow"></a>  <a href="https://video.computer.org/WACV-Posters25/5AaMB5jWKpzI96r1JNNwsl-wacv25-425.mp4"><img src="https://img.shields.io/badge/Video-orange"></a>
 
 
-[Huimin Zeng](https://zeldam1.github.io/), [Jiacheng Li](http://home.ustc.edu.cn/~jclee/),
+[Huimin Zeng](https://huimin-zeng.github.io/), [Jiacheng Li](http://home.ustc.edu.cn/~jclee/),
 [Ziqiang Zheng](https://zhengziqiang.github.io/), [Zhiwei Xiong](http://staff.ustc.edu.cn/~zwxiong/)
 
 
